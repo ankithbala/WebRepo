@@ -1,0 +1,66 @@
+
+<html>
+
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		
+		<script src="bootstrap/js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+<script src="assets/js/script.js"></script>	
+
+<script src="assets/js/cookies.js"></script>
+
+
+
+</head>
+<body onload="fetchJson('q1')">
+<!--  
+<ul class="pagination">
+ <li> <a href="#">«</a></li>
+ <li> <a href="question1.html">1</a></li>
+ <li> <a class="active" href="question2.html">2</a></li>
+  <li><a href="question3.html">3</a></li>
+ <li> <a href="frame1.html">4</a></li>
+ <li> <a href="iframe.html">5</a></li>
+ <li> <a href="chapter list.html">6</a></li>
+  <li><a href="#">»</a></li>
+</ul>
+
+-->
+
+<div class="container">
+  <h2>Question </h2>
+  <div class="panel panel-default">
+    <div class="panel-heading"><b id="questionNo"></b><p id="question"></p></div>
+    <div class="panel-body">
+    	
+    	<form>
+    	<input type="radio" name="option" value="A"><b id="option1"></b>
+    	<br>
+    	<input type="radio" name="option" value="B"><b id="option2"></b>
+    	<br>
+    	<input type="radio" name="option" value="C"><b id="option3"></b>
+    	<br>
+    	<input type="radio" name="option" value="D"><b id="option4"></b>
+    	</form>
+    	<br>
+    	
+<p id="option1"></p>
+    
+    </div>
+  </div>
+  <!--    <input type="button" onclick="myFunction()" value="Send order">
+  -->
+  <ul class="pager">
+
+
+  <li class="Next"  onclick="return myFunction()"><a href="question2.html">Next*</a></li>
+
+  </ul>
+</div>
+
+</body>
+</html>
